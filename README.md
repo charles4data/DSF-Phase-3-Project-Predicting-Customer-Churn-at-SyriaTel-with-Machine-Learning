@@ -10,12 +10,12 @@ A 2014 article, called The Value of Keeping the Right Customers, written by Amy 
 Through this project, we are building a prediction model that identifies patterns in customer churning, which can be helpful in developing mitigation strategies.
 
 ## Business Understanding
-The telecommunication industry has become very competitive, particularly with emerging technological innovations that have given customers alternative communication channels. We aim at creating a predictive business model which would enable Syriatel to adopt strategies that would reduce churn, maintain and grow its customer base, in a bid to sustain overall growth and profitability.
+The telecommunication industry has become very competitive, particularly with emerging technological innovations that have given customers alternative communication channels. We aim at creating a predictive business model which would enable Syriatel to adopt strategies that would reduce churn, and maintain and grow its customer base, in a bid to sustain overall growth and profitability.
 As the principal stakeholder, the company stands to benefit from this model through a reduction in customer churning rates, which has the potential to increase revenues and profits, promote growth, and sustain, or rather, increase its market position. The customers will also benefit through improved telecommunication services, not forgetting better customer service. As the company continues to grow, through revenues, profits, increased customers, and higher market share, the shareholders will also get more returns on their investments (ROI) while employees benefit from better remunerations and bonuses.
 **Research Objectives**
 To identify the key features that determine if a customer is likely to churn.
 To determine the most suitable model to predict Customer Churn.
-To establish Cusstomer retention strategy to reduce churn
+To establish customer retention strategy to reduce churn
 
 
 ## The Data
@@ -92,12 +92,14 @@ The top 10 most important features of the random  forest model
 
 
 **Selecting The Best Model**
-Based on the provided metrics, the Decision Trees Classifier achieved the highest accuracy (95.00%) and F1-score (81.00%). The logistic regression had the highest recall (73.00%), while the Random Forest Classifier achieved the highest precision (96.00%).  The Random Forest Classifier is the best performing model overall and so we selected it as our best model.
+![](images/comparison_frame)
+Based on the provided metrics, the Decision Trees Classifier achieved the highest accuracy (95.00%) and F1-score (81.00%). The logistic regression had the highest recall (73.00%), while the Random Forest Classifier achieved the highest precision (96.00%).  The Random Forest Classifier is the best-performing model overall and so we selected it as our best model.
 
+![ROC Curves](images/roc_curves)
 The ROC curves for Logistic Regression, K Nearest Neighbors, Decision Tree, and Random Forest models were analyzed. The Random Forest model outperformed the others, showing a higher Area Under the Curve (AUC) and better classification performance, making it the most effective model 
 
 ## Conclusions & Recommendations
-In conclusion, the analysis suggests that we can accurately predict customer churn using a machine learning model, with the Random Forest Classifier being our recommended model due to its strong overall performance. As this is the best-performing model with an ROC curve that hugs the upper left corner of the graph, hence giving us the largest AUC (Area Under the curve).
+In conclusion, the analysis suggests that we can accurately predict customer churn using a machine learning model, with the Random Forest Classifier being our recommended model due to its strong overall performance. As this is the best-performing model with a ROC curve that hugs the upper left corner of the graph, hence giving us the largest AUC (Area Under the curve).
 
 1. We would recommend that Syriatel make use of the Random Forest Classifier as the primary model for predicting customer churn. This model has a higher ROC curve and strong overall performance in terms of accuracy, F1-score, recall, and precision on the test set, making it well-suited for accurately classifying customers as likely or unlikely to churn.
 
