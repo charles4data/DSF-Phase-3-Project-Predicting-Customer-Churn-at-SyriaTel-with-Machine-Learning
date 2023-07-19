@@ -3,6 +3,7 @@
 **Authors:** Edward Opollo, Cynthia Nasimiyu, John Karanja, Sheilah Machaha, Julius Charles, Sharon Kimutai, Phelix Okumu
 
 ## Project Overview
+
 The project uses the SyriaTel Telecoms dataset to build a classification model that determines whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. This is a binary classification problem.
 
 A 2014 article, called The Value of Keeping the Right Customers, written by Amy Gallo stresses the importance of any business investing more to retain existing customers (avoiding customer churning) than acquiring new ones. Gallo maintains that it costs from 5 to 25 times more to acquire a new customer than retain an existing one while retaining existing clients by 5% results in profits augmenting by 25% to 95%.
@@ -10,15 +11,19 @@ A 2014 article, called The Value of Keeping the Right Customers, written by Amy 
 Through this project, we are building a prediction model that identifies patterns in customer churning, which can be helpful in developing mitigation strategies.
 
 ## Business Understanding
+
 The telecommunication industry has become very competitive, particularly with emerging technological innovations that have given customers alternative communication channels. We aim at creating a predictive business model which would enable Syriatel to adopt strategies that would reduce churn, and maintain and grow its customer base, in a bid to sustain overall growth and profitability.
 As the principal stakeholder, the company stands to benefit from this model through a reduction in customer churning rates, which has the potential to increase revenues and profits, promote growth, and sustain, or rather, increase its market position. The customers will also benefit through improved telecommunication services, not forgetting better customer service. As the company continues to grow, through revenues, profits, increased customers, and higher market share, the shareholders will also get more returns on their investments (ROI) while employees benefit from better remunerations and bonuses.
+
 **Research Objectives**
+
 To identify the key features that determine if a customer is likely to churn.
 To determine the most suitable model to predict Customer Churn.
 To establish customer retention strategy to reduce churn
 
 
 ## The Data
+
 The SyriaTel Customer Churn dataset is from Kaggle and can be found in the data folder. The dataset contains 3333 entries and 21 columns. 
 This dataset contains information about customers of a telecom company, including their state, account length, area code, phone number, and whether they have international and voice mail plans. 
 The dataset also includes information about the number of voicemails the customer has sent, the total number of minutes, calls, and charges for day, evening, and night calls, as well as the total number of minutes, calls, and charges for international calls. 
