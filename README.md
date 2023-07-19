@@ -72,21 +72,23 @@ We tried to improve the model further by using GridSearchCV to get the best hype
 **Baseline Model**
 This project utilizes the Random Forest machine learning algorithm to predict customer churn. It analyzes customer behavior and key features to determine the likelihood of customers leaving the service. The Random Forest model is chosen for its accuracy and ability to handle complex relationships in the data.
 **Results for the model**
-
+![Random Forest Classifier baseline results](images/random_baseline)
 
 **Using k-fold cross-validation to address overfitting**
 To address overfitting, K-fold cross-validation was employed for the Random Forest model. This technique helps assess the model's robustness and generalization by splitting the data into K subsets and iteratively training and testing the model on different combinations.
 **Results for the model**
-
+![Random Forest with k-fold cross-validation results](images/random_kfold)
 
 **Random Forest classifier with reduced n_estimators and limited max_depth**
 To tackle overfitting, adjustments were made to the parameters of the Random Forest classifier, reducing the number of trees (n_estimators) and constraining the maximum depth of each tree (max_depth). These modifications aimed to create a simpler and less complex model, improving its ability to generalize to new data and reduce overfitting.
 **Results for the model**
-.
+![Random Forest with reduced n_estimators and limited max_depth results](images/random_n)
+
 **Confusion Matrix for random forest**
+![Random Forest confusion matrix](images/confusion_matrix)
 
-The top 10 most important features of random  forest model
-
+The top 10 most important features of the random  forest model
+![Top 10 Important Features](images/feature_importance)
 
 
 **Selecting The Best Model**
