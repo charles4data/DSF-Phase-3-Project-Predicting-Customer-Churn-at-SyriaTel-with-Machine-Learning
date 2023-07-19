@@ -89,6 +89,7 @@ We tried to improve the model further by using GridSearchCV to get the best hype
 This project utilizes the Random Forest machine learning algorithm to predict customer churn. It analyzes customer behavior and key features to determine the likelihood of customers leaving the service. The Random Forest model is chosen for its accuracy and ability to handle complex relationships in the data.
 
 *Random Forest Classifier baseline results*
+
 ![](images/random_baseline.png)
 
 **Using k-fold cross-validation to address overfitting**
