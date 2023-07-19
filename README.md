@@ -1,6 +1,13 @@
 # Reducing Customer Churn: Using Machine Learning to Predict Customer Retention at Syriatel Mobile Telecom
 
-**Authors:** Edward Opollo, Cynthia Nasimiyu, John Karanja, Sheilah Machaha, Julius Charles, Sharon Kimutai, Phelix Okumu
+**Authors:** 
++ Edward Opollo, 
++ Cynthia Nasimiyu, 
++ John Karanja, 
++ Sheilah Machaha, 
++ Julius Charles, 
++ Sharon Kimutai, 
++ Phelix Okumu
 
 ## Project Overview
 
