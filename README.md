@@ -72,30 +72,30 @@ We tried to improve the model further by using GridSearchCV to get the best hype
 **Baseline Model**
 This project utilizes the Random Forest machine learning algorithm to predict customer churn. It analyzes customer behavior and key features to determine the likelihood of customers leaving the service. The Random Forest model is chosen for its accuracy and ability to handle complex relationships in the data.
 **Results for the model**
-![Random Forest Classifier baseline results](images/random_baseline)
+![Random Forest Classifier baseline results](images/random_baseline.png)
 
 **Using k-fold cross-validation to address overfitting**
 To address overfitting, K-fold cross-validation was employed for the Random Forest model. This technique helps assess the model's robustness and generalization by splitting the data into K subsets and iteratively training and testing the model on different combinations.
 **Results for the model**
-![Random Forest with k-fold cross-validation results](images/random_kfold)
+![Random Forest with k-fold cross-validation results](images/random_kfold.png)
 
 **Random Forest classifier with reduced n_estimators and limited max_depth**
 To tackle overfitting, adjustments were made to the parameters of the Random Forest classifier, reducing the number of trees (n_estimators) and constraining the maximum depth of each tree (max_depth). These modifications aimed to create a simpler and less complex model, improving its ability to generalize to new data and reduce overfitting.
 **Results for the model**
-![Random Forest with reduced n_estimators and limited max_depth results](images/random_n)
+![Random Forest with reduced n_estimators and limited max_depth results](images/random_n.png)
 
 **Confusion Matrix for random forest**
-![Random Forest confusion matrix](images/confusion_matrix)
+![Random Forest confusion matrix](images/confusion_matrix.png)
 
 The top 10 most important features of the random  forest model
-![Top 10 Important Features](images/feature_importance)
+![Top 10 Important Features](images/feature_importance.png)
 
 
 **Selecting The Best Model**
-![](images/comparison_frame)
+![](images/comparison_framep.png)
 Based on the provided metrics, the Decision Trees Classifier achieved the highest accuracy (95.00%) and F1-score (81.00%). The logistic regression had the highest recall (73.00%), while the Random Forest Classifier achieved the highest precision (96.00%).  The Random Forest Classifier is the best-performing model overall and so we selected it as our best model.
 
-![ROC Curves](images/roc_curves)
+![ROC Curves](images/roc_curves.png)
 The ROC curves for Logistic Regression, K Nearest Neighbors, Decision Tree, and Random Forest models were analyzed. The Random Forest model outperformed the others, showing a higher Area Under the Curve (AUC) and better classification performance, making it the most effective model 
 
 ## Conclusions & Recommendations
