@@ -95,27 +95,27 @@ This project utilizes the Random Forest machine learning algorithm to predict cu
 
 To address overfitting, K-fold cross-validation was employed for the Random Forest model. This technique helps assess the model's robustness and generalization by splitting the data into K subsets and iteratively training and testing the model on different combinations.
 
-![**Random Forest with k-fold cross-validation results**](images/random_kfold.png)
+![Random Forest with k-fold cross-validation results](images/random_kfold.png)
 
 **Random Forest classifier with reduced n_estimators and limited max_depth**
 
 To tackle overfitting, adjustments were made to the parameters of the Random Forest classifier, reducing the number of trees (n_estimators) and constraining the maximum depth of each tree (max_depth). These modifications aimed to create a simpler and less complex model, improving its ability to generalize to new data and reduce overfitting.
 
-![**Random Forest with reduced n_estimators and limited max_depth results**](images/random_n.png)
+![Random Forest with reduced n_estimators and limited max_depth results](images/random_n.png)
 
 
-![**Random Forest confusion matrix**](images/confusion_matrix.png)
+![Random Forest confusion matrix](images/confusion_matrix.png)
 
 
-![**The top 10 most important features of the random  forest model**](images/feature_importance.png)
+![The top 10 most important features of the random  forest model](images/feature_importance.png)
 
 
 
-![**Selecting The Best Model**](images/comparison_frame.png)
+![Selecting The Best Model](images/comparison_frame.png)
 
 Based on the provided metrics, the Decision Trees Classifier achieved the highest accuracy (95.00%) and F1-score (81.00%). The logistic regression had the highest recall (73.00%), while the Random Forest Classifier achieved the highest precision (96.00%).  The Random Forest Classifier is the best-performing model overall and so we selected it as our best model.
 
-![**ROC Curves**](images/roc_curves.png)
+![ROC Curves](images/roc_curves.png)
 
 The ROC curves for Logistic Regression, K Nearest Neighbors, Decision Tree, and Random Forest models were analyzed. The Random Forest model outperformed the others, showing a higher Area Under the Curve (AUC) and better classification performance, making it the most effective model 
 
